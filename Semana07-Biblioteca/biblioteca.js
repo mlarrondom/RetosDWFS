@@ -1,5 +1,5 @@
 class Libro {
-  constructor(titulo, autor, anio, disponible){
+  constructor(titulo, autor, anio, disponible = true){
     this.titulo = titulo;
     this.autor = autor;
     this.anio = anio;
@@ -12,16 +12,24 @@ class Biblioteca {
         this.libros = [];
     }
     agregarLibro(libro){
-        this.libros.push(libro);
+        this.libros
+        .push(libro);
     }
     // Ajuste buscar por año, ya que puede tener más sentido varios libros con el mismo año, que con el mismo titulo.
     buscarPorAnio(anio){
-        this.libros.filter(l.anio = anio);
+        const librosFiltrados = this.libros.filter(l => l.anio === anio);
+        return librosFiltrados;
     }
     prestarLibro(titulo){
-        if (!this.libros.filter(l.titulo = titulo)){
+      const libro = this.libros.find(
+        l => l.titulo.toLowerCase() === titulo.toLowerCase()
+      );  
+      
+      if (!libro){
             console.log(`Libro no encontrado`)
-        } else {
+        } else if (!libro.disponible){
+          console.log(`El libro ${titulo} no está disponible.`)
+        } else{
             libro.disponible = false;
             console.log(`Se confirma el préstamo del libro ${titulo}.`)
         }
@@ -46,10 +54,15 @@ const libro5 = new LibroInfantil ("Titulo5", "Florencia", 2020, true, 5);
 const libro6 = new LibroInfantil ("Titulo6", "Francisca", 2024, true, 1);
 
 
-agregarLibro(libro1);
-agregarLibro(libro2);
-agregarLibro(libro3);
-agregarLibro(libro4);
-agregarLibro(libro5);
-agregarLibro(libro6);
+miBiblioteca.agregarLibro(libro1);
+miBiblioteca.agregarLibro(libro2);
+miBiblioteca.agregarLibro(libro3);
+miBiblioteca.agregarLibro(libro4);
+miBiblioteca.agregarLibro(libro5);
+miBiblioteca.agregarLibro(libro6);
 
+console.log(miBiblioteca);
+console.log(miBiblioteca.buscarPorAnio(1992));
+miBiblioteca.prestarLibro("Titulo1");
+console.log(miBiblioteca);
+miBiblioteca.prestarLibro("Titulo1");
