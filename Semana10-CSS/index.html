@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/img/icon.svg" type="image/svg+xlm">
+    <title>CSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+
+
+
+    <link rel="stylesheet" href="./assets/css/main.css">
+
+</head>
+
+<body>
+    <nav>
+        <img class="navbar-logo" src="./assets/img/logo.svg" alt="Logo" height="40">
+        <ul class="navbar-items">
+            <li>Inicio</li>
+            <li><a href="./catalogo.html">Catálogo</a></li>
+            <li><a href="#help">Ayuda</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+        <div>
+            <button class="alternative-btn">Registrarse</button>
+            <button class="primary-btn">Iniciar Sesión</button>
+        </div>
+    </nav>
+
+    <header>
+        <h1>Cursos asincrónicos</h1> <!-- CSS Cascading Styling Sheet -->
+        <p>Realiza los cursos a tu ritmo</p>
+    </header>
+
+    <main>
+        <section>
+            <article class="card">
+                <h2>Cursos más vendidos</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis impedit temporibus delectus! Numquam maxime dolore ipsum optio fugit totam, perferendis et facere, accusamus aut dolores dignissimos nam odit laboriosam ex.</p>
+                <ul class="courses-group">
+                    <img class="img-card" src="./assets/img/curso1.png" alt="">
+                    <img class="img-card" src="./assets/img/curso2.png" alt="">
+                    <img class="img-card" src="./assets/img/curso3.png" alt="">
+                </ul>
+                <ul class="courses-group">
+                    <img class="img-card" src="./assets/img/curso4.png" alt="">
+                    <img class="img-card" src="./assets/img/curso5.png" alt="">
+                    <img class="img-card" src="./assets/img/curso6.png" alt="">
+                </ul>
+
+            </article>
+
+            <article class="card">
+                <h3>Quienes confían en nosotros</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos sequi, obcaecati harum fuga distinctio temporibus necessitatibus ducimus quam, architecto consequuntur eligendi consectetur quas corrupti. Quia in, maiores voluptatibus perferendis amet eligendi excepturi beatae temporibus nobis neque ex assumenda mollitia cumque architecto possimus earum, distinctio reiciendis hic doloribus omnis molestiae commodi.</p>
+                
+                <ul class="student-group">
+                <li class="student-card">
+                    <img class="img-card" src="./assets/img/mujer.png" alt="Foto mujer">
+                    <h3>Nombre</h3>
+                    <p>Cargo o rol</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </li>
+
+                <li class="student-card">
+                    <img class="img-card" src="./assets/img/hombre.png" alt="Foto hombre">
+                    <h3>Nombre</h3>
+                    <p>Cargo o rol</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </li>
+                </ul>
+
+            </article>
+        </section>
+
+        <section id="help">
+            <h2>Ayuda</h2>
+            <p>A continuación, déjanos tu inquietud y te contactaremos a la brevedad.</p>
+
+            <form class="help-form" action="#" method="post" novalidate>
+                <div class="field">
+                    <label for="email">Correo</label>
+                    <input id="email" name="email" type="email" placeholder="email@dominio.com" required>
+                    <small class="hint">Solo lo usaremos para responderte.</small>
+                </div>
+
+                <div class="field">
+                    <label for="mensaje">Texto</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu texto aquí" required></textarea>
+                </div>
+
+                <div class="actions">
+                    <button class="primary-btn" type="submit">Enviar</button>
+                    <button class="alternative-btn" type="reset">Limpiar</button>
+                </div>
+            </form>
+        </section>
+ 
+    </main>
+    
+    <footer id="contact">
+        <h2>Información de contacto</h2>
+        <ul>
+            <li>
+                <img class="img-icon" src="./assets/img/icon-user.png" alt="">
+                <p>Mauricio Larrondo</p>
+            </li>
+            <li>
+                <img class="img-icon" src="./assets/img/icon-email.png" alt="">
+                <p><a href="mailto:mlarrondo@email.cl">mlarrondo@email.cl</a></p>
+            </li>
+            <li>
+                <img class="img-icon" src="./assets/img/icon-phone.png" alt="">
+                <p>+569 9685 7485</p>
+            </li>
+        </ul>
+    </footer>
+
+</body>
+</html>
+
