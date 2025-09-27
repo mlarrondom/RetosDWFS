@@ -1,0 +1,154 @@
+
+html { /*Para modificar tamaños*/
+    font-size: 16px; /* por defecto el html es 16 por lo que no es necesario colocarlo*/ 
+}
+
+:root { /* Este se usa para definir variables y siempre parten con --*/
+
+    --primary-color-3: #006699;
+    --primary-color-2: #4488BB;
+    --primary-color-1: #77AACC;
+    --secondary-color-3: #00CC99;
+    --secondary-color-2: #44DDBB;
+    --secondary-color-1: #77EECC;
+    --alternative-color-3: #FF6600;
+    --alternative-color-2: #FF8844;
+    --alternative-color-1: #FFBB77;
+    --neutral-color-4: #333333;
+    --neutral-color-3: #555555;
+    --neutral-color-2: #BBBBBB;
+    --neutral-color-1: #EEEEEE;
+    --blank-color--: #FFFFFF;
+}
+
+* {
+    /* Selector Universal Siempre tenemos que ponerlo*/
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--neutral-color-4);
+    line-height: 1.5;
+    background-color:var(--blank-color--);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: var(--neutral-color-1);
+    align-items: center;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 2rem;
+    cursor: pointer;
+}
+
+button {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+    padding: 0.4rem 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.alternative-btn {
+    border: 1px solid var(--neutral-color-4);
+}
+
+.alternative-btn:hover {
+    border: 1px solid var(--neutral-color-4);
+    background-color: var(--neutral-color-4);
+    color: var(--blank-color);
+}
+
+.primary-btn {
+    border: 1px solid var(--primary-color-3);
+    background-color: var(--primary-color-3);
+    color: var(--blank-color--);
+}
+
+.primary-btn:hover {
+    border: 1px solid var(--primary-color-2);
+    background-color: var(--primary-color-2);
+    color: var(--blank-color);
+}
+
+main {
+    width: 100%;
+    padding: 2rem;
+}
+
+.image {
+    height: 8rem;
+    border-radius: 8px;
+}
+
+.layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 1rem;
+    padding: 2rem;
+
+    grid-template-areas:
+        "article-1 article-2 article-3";
+}
+
+.article-1 {
+    background-color: var(--neutral-color-1);
+    padding: 1rem;
+    grid-area: article-1;
+}
+
+.article-2 {
+    background-color: var(--neutral-color-1);
+    padding: 1rem;
+    grid-area: article-2;
+}
+
+.article-3 {
+    background-color: var(--neutral-color-1);
+    padding: 1rem;
+    grid-area: article-3;
+}
+
+.article-3 ul {
+  list-style-position: outside; /* default */
+  padding-left: 1.25rem;        /* sangría para los bullets */
+  margin-left: 0;               /* por si acaso */
+}
+
+.btn-hamburger {
+    background-color: transparent;
+    color: var(--neutral-color-4);
+    font-size: 1.5rem;
+    display: none; 
+}
+
+@media(max-width: 768px) {
+    nav {
+        flex-direction: column
+    }
+
+    .nav-menu {
+        display: none;
+        flex-direction: column;
+        margin: 1rem 0;
+    }
+
+    .nav-menu.open {
+        display: flex;
+    }
+
+    .btn-hamburger {
+    display: block;
+    }
+}

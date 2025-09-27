@@ -29,9 +29,9 @@ html { /*Para modificar tamaños*/
     --primary-color-3: #006699;
     --primary-color-2: #4488BB;
     --primary-color-1: #77AACC;
-    --secundary-color-3: #00CC99;
-    --secundary-color-2: #44DDBB;
-    --secundary-color-1: #77EECC;
+    --secondary-color-3: #00CC99;
+    --secondary-color-2: #44DDBB;
+    --secondary-color-1: #77EECC;
     --alternative-color-3: #FF6600;
     --alternative-color-2: #FF8844;
     --alternative-color-1: #ffBB77;
@@ -80,7 +80,7 @@ nav {
 
 .navbar-items li a:hover {
     transform: scale(1.08);
-    color: var(--secundary-color-3);
+    color: var(--secondary-color-3);
 }
 
 button {
@@ -240,7 +240,7 @@ input:focus, textarea:focus {
 }
 
 #contact a:hover {
-    color: var(--secundary-color-3);
+    color: var(--secondary-color-3);
 }
 
 .img-icon {

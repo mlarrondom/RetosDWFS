@@ -1,0 +1,16 @@
+<svg width="64" height="64" viewBox="0 0 140 100" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Favicon Cursos Online">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#006699"/>
+      <stop offset="100%" stop-color="#00A8E8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ala del birrete -->
+  <polygon points="0,20 70,0 140,20 70,40" fill="url(#g1)"/>
+  <!-- copa -->
+  <rect x="52" y="28" width="36" height="24" rx="2" fill="#004E73"/>
+  <!-- borla -->
+  <line x1="88" y1="28" x2="110" y2="54" stroke="#00A8E8" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="110" cy="54" r="5" fill="#00A8E8"/>
+</svg>
