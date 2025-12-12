@@ -1,0 +1,90 @@
+[{
+  "_id": {
+    "$oid": "693c97b2527227b41de2efa6"
+  },
+  "nombre": "Juan Pérez",
+  "direccion": "Av. Central 123",
+  "correo_electronico": "juan.perez@mail.com",
+  "telefono": "+56911111111"
+},
+{
+  "_id": {
+    "$oid": "693c97b2527227b41de2efa7"
+  },
+  "nombre": "María González",
+  "direccion": "Los Robles 456",
+  "correo_electronico": "maria.gonzalez@mail.com",
+  "telefono": "+56922222222"
+},
+{
+  "_id": {
+    "$oid": "693c97b2527227b41de2efa8"
+  },
+  "nombre": "Pedro Ramírez",
+  "direccion": "Las Flores 789",
+  "correo_electronico": "pedro.ramirez@mail.com",
+  "telefono": "+56933333333"
+},
+{
+  "_id": {
+    "$oid": "693c97b2527227b41de2efa9"
+  },
+  "nombre": "Ana Torres",
+  "direccion": "Av. Norte 321",
+  "correo_electronico": "ana.torres@mail.com",
+  "telefono": "+56944444444"
+},
+{
+  "_id": {
+    "$oid": "693c97b2527227b41de2efaa"
+  },
+  "nombre": "Carlos Muñoz",
+  "direccion": "Calle Sur 654",
+  "correo_electronico": "carlos.munoz@mail.com",
+  "telefono": "+56955555555"
+},
+{
+  "_id": {
+    "$oid": "693c97b2527227b41de2efab"
+  },
+  "nombre": "Lucía Rojas",
+  "direccion": "Pasaje Uno 111",
+  "correo_electronico": "lucia.rojas@mail.com",
+  "telefono": "+56966666666"
+},
+{
+  "_id": {
+    "$oid": "693c97b2527227b41de2efac"
+  },
+  "nombre": "Diego Fuentes",
+  "direccion": "Pasaje Dos 222",
+  "correo_electronico": "diego.fuentes@mail.com",
+  "telefono": "+56977777777"
+},
+{
+  "_id": {
+    "$oid": "693c97b2527227b41de2efad"
+  },
+  "nombre": "Camila Soto",
+  "direccion": "Av. Libertad 333",
+  "correo_electronico": "camila.soto@mail.com",
+  "telefono": "+56988888888"
+},
+{
+  "_id": {
+    "$oid": "693c97b2527227b41de2efae"
+  },
+  "nombre": "Francisco Díaz",
+  "direccion": "Calle Larga 444",
+  "correo_electronico": "francisco.diaz@mail.com",
+  "telefono": "+56999999999"
+},
+{
+  "_id": {
+    "$oid": "693c97b2527227b41de2efaf"
+  },
+  "nombre": "Valentina Silva",
+  "direccion": "Av. Mar 555",
+  "correo_electronico": "valentina.silva@mail.com",
+  "telefono": "+56910101010"
+}]

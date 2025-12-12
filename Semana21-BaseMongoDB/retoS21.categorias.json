@@ -1,0 +1,35 @@
+[{
+  "_id": {
+    "$oid": "693c95cc527227b41de2ef92"
+  },
+  "nombre": "Electrónica",
+  "descripcion": "Dispositivos electrónicos como celulares, computadores y accesorios tecnológicos"
+},
+{
+  "_id": {
+    "$oid": "693c963a527227b41de2ef93"
+  },
+  "nombre": "Hogar",
+  "descripcion": "Productos para el hogar, decoración, muebles y artículos de uso doméstico"
+},
+{
+  "_id": {
+    "$oid": "693c964c527227b41de2ef94"
+  },
+  "nombre": "Ropa",
+  "descripcion": "Vestuario para hombres, mujeres y niños"
+},
+{
+  "_id": {
+    "$oid": "693c965e527227b41de2ef95"
+  },
+  "nombre": "Deportes",
+  "descripcion": "Artículos deportivos, ropa deportiva y equipamiento para actividades físicas"
+},
+{
+  "_id": {
+    "$oid": "693c966e527227b41de2ef96"
+  },
+  "nombre": "Libros",
+  "descripcion": "Libros físicos y digitales de distintas categorías y autores"
+}]

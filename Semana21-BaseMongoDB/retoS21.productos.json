@@ -1,0 +1,100 @@
+[{
+  "_id": {
+    "$oid": "693c976b527227b41de2ef9a"
+  },
+  "nombre": "iPhone 14 Pro",
+  "descripcion": "Smartphone Apple con pantalla Super Retina XDR",
+  "precio": 1099,
+  "imagen": "iphone14pro.jpg",
+  "categoria_id": "Electrónica"
+},
+{
+  "_id": {
+    "$oid": "693c976b527227b41de2ef9b"
+  },
+  "nombre": "Notebook Dell Inspiron",
+  "descripcion": "Notebook Dell 15 pulgadas, Intel i5, 16GB RAM",
+  "precio": 899,
+  "imagen": "dell_inspiron.jpg",
+  "categoria_id": "Electrónica"
+},
+{
+  "_id": {
+    "$oid": "693c976b527227b41de2ef9c"
+  },
+  "nombre": "Televisor Samsung 55\"",
+  "descripcion": "Smart TV Samsung UHD 4K de 55 pulgadas",
+  "precio": 699,
+  "imagen": "samsung_tv_55.jpg",
+  "categoria_id": "Electrónica"
+},
+{
+  "_id": {
+    "$oid": "693c976b527227b41de2ef9d"
+  },
+  "nombre": "Sofá 3 cuerpos",
+  "descripcion": "Sofá cómodo de tres cuerpos para living",
+  "precio": 550,
+  "imagen": "sofa_3_cuerpos.jpg",
+  "categoria_id": "Hogar"
+},
+{
+  "_id": {
+    "$oid": "693c976b527227b41de2ef9e"
+  },
+  "nombre": "Mesa de comedor",
+  "descripcion": "Mesa de madera para 6 personas",
+  "precio": 420,
+  "imagen": "mesa_comedor.jpg",
+  "categoria_id": "Hogar"
+},
+{
+  "_id": {
+    "$oid": "693c976b527227b41de2ef9f"
+  },
+  "nombre": "Polera deportiva",
+  "descripcion": "Polera deportiva de secado rápido",
+  "precio": 25,
+  "imagen": "polera_deportiva.jpg",
+  "categoria_id": "Ropa"
+},
+{
+  "_id": {
+    "$oid": "693c976b527227b41de2efa0"
+  },
+  "nombre": "Jeans clásicos",
+  "descripcion": "Jeans de mezclilla azul corte regular",
+  "precio": 45,
+  "imagen": "jeans_clasicos.jpg",
+  "categoria_id": "Ropa"
+},
+{
+  "_id": {
+    "$oid": "693c976b527227b41de2efa1"
+  },
+  "nombre": "Bicicleta Mountain Bike",
+  "descripcion": "Bicicleta MTB aro 29 para todo terreno",
+  "precio": 780,
+  "imagen": "bicicleta_mtb.jpg",
+  "categoria_id": "Deportes"
+},
+{
+  "_id": {
+    "$oid": "693c976b527227b41de2efa2"
+  },
+  "nombre": "Mancuernas ajustables",
+  "descripcion": "Set de mancuernas ajustables hasta 20kg",
+  "precio": 120,
+  "imagen": "mancuernas.jpg",
+  "categoria_id": "Deportes"
+},
+{
+  "_id": {
+    "$oid": "693c976b527227b41de2efa3"
+  },
+  "nombre": "Libro Clean Code",
+  "descripcion": "Libro sobre buenas prácticas de programación",
+  "precio": 38,
+  "imagen": "clean_code.jpg",
+  "categoria_id": "Libros"
+}]

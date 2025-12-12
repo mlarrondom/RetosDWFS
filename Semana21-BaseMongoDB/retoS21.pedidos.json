@@ -1,0 +1,200 @@
+[{
+  "_id": {
+    "$oid": "693c97e0527227b41de2efb3"
+  },
+  "fecha": "2024-01-01",
+  "cliente": "Valentina Silva",
+  "producto": "Libro Clean Code",
+  "cantidad": 1,
+  "total": 404
+},
+{
+  "_id": {
+    "$oid": "693c97e0527227b41de2efb4"
+  },
+  "fecha": "2024-01-02",
+  "cliente": "Ana Torres",
+  "producto": "Notebook Dell Inspiron",
+  "cantidad": 3,
+  "total": 339
+},
+{
+  "_id": {
+    "$oid": "693c97e0527227b41de2efb5"
+  },
+  "fecha": "2024-01-03",
+  "cliente": "María González",
+  "producto": "Polera deportiva",
+  "cantidad": 2,
+  "total": 877
+},
+{
+  "_id": {
+    "$oid": "693c97e0527227b41de2efb6"
+  },
+  "fecha": "2024-01-04",
+  "cliente": "Valentina Silva",
+  "producto": "Sofá 3 cuerpos",
+  "cantidad": 3,
+  "total": 119
+},
+{
+  "_id": {
+    "$oid": "693c97e0527227b41de2efb7"
+  },
+  "fecha": "2024-01-05",
+  "cliente": "Ana Torres",
+  "producto": "Mesa de comedor",
+  "cantidad": 1,
+  "total": 943
+},
+{
+  "_id": {
+    "$oid": "693c97e0527227b41de2efb8"
+  },
+  "fecha": "2024-01-06",
+  "cliente": "Pedro Ramírez",
+  "producto": "Notebook Dell Inspiron",
+  "cantidad": 5,
+  "total": 409
+},
+{
+  "_id": {
+    "$oid": "693c97e0527227b41de2efb9"
+  },
+  "fecha": "2024-01-07",
+  "cliente": "Juan Pérez",
+  "producto": "Mancuernas ajustables",
+  "cantidad": 2,
+  "total": 935
+},
+{
+  "_id": {
+    "$oid": "693c97e0527227b41de2efba"
+  },
+  "fecha": "2024-01-08",
+  "cliente": "María González",
+  "producto": "Libro Clean Code",
+  "cantidad": 2,
+  "total": 475
+},
+{
+  "_id": {
+    "$oid": "693c97e0527227b41de2efbb"
+  },
+  "fecha": "2024-01-09",
+  "cliente": "Juan Pérez",
+  "producto": "Polera deportiva",
+  "cantidad": 5,
+  "total": 1122
+},
+{
+  "_id": {
+    "$oid": "693c97e0527227b41de2efbc"
+  },
+  "fecha": "2024-01-10",
+  "cliente": "Valentina Silva",
+  "producto": "Polera deportiva",
+  "cantidad": 4,
+  "total": 792
+},
+{
+  "_id": {
+    "$oid": "693c97e0527227b41de2efbd"
+  },
+  "fecha": "2024-01-11",
+  "cliente": "Lucía Rojas",
+  "producto": "Notebook Dell Inspiron",
+  "cantidad": 5,
+  "total": 603
+},
+{
+  "_id": {
+    "$oid": "693c97e0527227b41de2efbe"
+  },
+  "fecha": "2024-01-12",
+  "cliente": "Francisco Díaz",
+  "producto": "Sofá 3 cuerpos",
+  "cantidad": 2,
+  "total": 920
+},
+{
+  "_id": {
+    "$oid": "693c97e0527227b41de2efbf"
+  },
+  "fecha": "2024-01-13",
+  "cliente": "Diego Fuentes",
+  "producto": "Televisor Samsung 55\"",
+  "cantidad": 4,
+  "total": 428
+},
+{
+  "_id": {
+    "$oid": "693c97e0527227b41de2efc0"
+  },
+  "fecha": "2024-01-14",
+  "cliente": "Ana Torres",
+  "producto": "Sofá 3 cuerpos",
+  "cantidad": 1,
+  "total": 190
+},
+{
+  "_id": {
+    "$oid": "693c97e0527227b41de2efc1"
+  },
+  "fecha": "2024-01-15",
+  "cliente": "Francisco Díaz",
+  "producto": "iPhone 14 Pro",
+  "cantidad": 1,
+  "total": 224
+},
+{
+  "_id": {
+    "$oid": "693c97e0527227b41de2efc2"
+  },
+  "fecha": "2024-01-16",
+  "cliente": "Francisco Díaz",
+  "producto": "Televisor Samsung 55\"",
+  "cantidad": 3,
+  "total": 504
+},
+{
+  "_id": {
+    "$oid": "693c97e0527227b41de2efc3"
+  },
+  "fecha": "2024-01-17",
+  "cliente": "Pedro Ramírez",
+  "producto": "iPhone 14 Pro",
+  "cantidad": 3,
+  "total": 1120
+},
+{
+  "_id": {
+    "$oid": "693c97e0527227b41de2efc4"
+  },
+  "fecha": "2024-01-18",
+  "cliente": "Francisco Díaz",
+  "producto": "Mancuernas ajustables",
+  "cantidad": 4,
+  "total": 379
+},
+{
+  "_id": {
+    "$oid": "693c97e0527227b41de2efc5"
+  },
+  "fecha": "2024-01-19",
+  "cliente": "Pedro Ramírez",
+  "producto": "iPhone 14 Pro",
+  "cantidad": 3,
+  "total": 231
+},
+{
+  "_id": {
+    "$oid": "693c97e0527227b41de2efc6"
+  },
+  "fecha": "2024-01-20",
+  "cliente": "Francisco Díaz",
+  "producto": "Sofá 3 cuerpos",
+  "cantidad": 5,
+  "total": 1105
+}]
